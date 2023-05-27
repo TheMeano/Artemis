@@ -1,6 +1,6 @@
 /* GENERAL CLASSES AND TAG SELECTOR *****************************/
 body{
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     z-index: -2;
     overflow-x: hidden; 
     color: #ffffff;
@@ -9,6 +9,7 @@ body{
 .background{
     position: fixed;
     width: auto;
+    width: 100%;
 }
 
 #background-sm{
@@ -103,6 +104,7 @@ h1{
 
 .heading-cursive{
     font-family: "Great vibes", sans-serif;
+    font-size: 2.3rem;
 }
 
 hr{
@@ -147,6 +149,7 @@ a {
     font-size: 8rem;
     font-weight: 600;
     color: #ffffff;
+    font-family: "Lora", sans-serif;
  }
 
  #first-sec button{
@@ -358,6 +361,14 @@ th, td {
 
     button {
         font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .heading-cursive{
+        font-size: 2rem;
     }
     /* first section  */
 
