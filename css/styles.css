@@ -1,0 +1,447 @@
+/* GENERAL CLASSES AND TAG SELECTOR *****************************/
+body{
+    font-family: 'Outfit', sans-serif;
+    z-index: -2;
+    overflow-x: hidden; 
+    color: #ffffff;
+}
+
+.background{
+    position: fixed;
+    width: auto;
+}
+
+#background-sm{
+    visibility: hidden;
+}
+.navbar {
+    background-color: #000000;
+    width: 100%;
+    margin-bottom: 5%;
+    position: fixed;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    padding: 0 10%;
+    transition: height 0.3s ease;   
+    z-index: 3;
+    height: 120px;
+} 
+
+#navbar-mobile{
+    visibility: hidden;
+}
+
+
+
+.navbar-brand{
+    transition: height 0.5s ease;   
+    height: auto;
+}
+
+img{
+    width: 100%;
+}
+
+
+.nav-link{
+    color: #ffffff;
+    font-size: 1.3kfkfkrem;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+}
+.nav-item{
+    margin-right: 30px;
+    color: #fff;
+}
+
+#rec-hireus{
+   background-color: transparent;
+   border: solid #D0AE67;
+   width: max-content;
+   margin: auto;
+}
+
+button{
+    background-color: #D0AE67;
+    width: 200px;
+    height: 70px;
+    border: none;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    transition: all 0.5s ease;
+    color: #000000;
+}
+
+button:hover{
+    background-color: #000000;
+    border: solid 2px #D0AE67;
+    color: #ffffff;
+}
+
+.Button-dark {
+    background-color: #000000;
+    color: #ffffff;
+    border: solid 2px #D0AE67;
+    transition: all 0.5s ease;
+}
+
+.Button-dark:hover{
+    background-color: #D0AE67;
+    border: none;
+    color: #000;
+}
+
+h1{
+    text-align: center;
+    display: block;
+}
+
+.heading-cursive{
+    font-family: "Great vibes", sans-serif;
+}
+
+hr{
+    border: 2px solid #D0AE67;
+    opacity: 1;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* first section ***********************************************************/
+ #first-sec{
+    position: relative;
+ }
+ 
+ #heading-artemis{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 15%;
+    margin-bottom: auto;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+ }
+
+ #background_1sec_sm{
+    visibility: hidden;
+    position: absolute;
+ }
+
+
+ #h1-bold{
+    font-size: 8rem;
+    font-weight: 600;
+    color: #ffffff;
+ }
+
+ #first-sec button{
+    margin-right: 3%;
+ }
+
+ /* Über uns  ************************************************************************/
+
+ #Über-uns{
+    position: relative;
+    padding:  0 10%;
+    margin-top: 5%;
+ }
+
+ #Über-uns .col-lg-5{
+    border: solid 3px #D0AE67;
+    font-size: 1.2rem;
+ }
+
+ #Über-uns .content-wrapper{
+    margin-top: 3%;
+    border: none;
+ }
+
+ #Über-uns .heading-cursive{
+    margin-bottom: 2%;
+ }
+
+
+ /* Restaurant ***************************************************************/
+
+#Restaurant{
+    position: relative;
+    padding: 0 10%;
+    margin-top: 5%;
+}
+
+.content-wrapper{
+    border: solid 3px #D0AE67;
+    padding: 5%;
+}
+
+#Restaurant img {
+    width: 450px;
+}
+
+#Restaurant .row{
+    margin-top: 10%;
+}
+
+
+.hidden_cont_sm{
+    visibility: hidden;
+    position: absolute;
+}
+/* Eiscafé  ************************************************************************/
+
+#Eiscafé{
+    position: relative;
+    padding: 0 10%;
+    margin-top: 5%;
+}
+
+#Eiscafé img {
+    width: 450px;
+}
+
+#Eiscafé .row{
+    margin-top: 10%;
+}
+
+#Eiscafé .col-lg-6{
+    text-align: center;
+}
+
+
+/* Karten  ***********************************************************************************/
+
+#Karten{
+    position: relative;
+    padding: 0 20%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#Karten .row{
+    margin-top: 5%;
+}
+
+#Karten button {
+    margin-bottom: 5%;
+}
+
+/* Anfahrt und Kontakt  *******************************************************************/
+
+#Anfahrt{
+    position: relative;
+    padding: 0 10%;
+    margin-top: 5%;
+}
+
+
+/* footer  **************************************************/
+
+footer{
+    position: relative;
+    margin-top: 5%;
+    /* padding: 5% 10% 0; */
+    background-color: #D0AE67;
+    text-align: center;
+}
+
+footer ul {
+    text-align: inherit;
+}
+
+
+footer p {
+    font-size: 1.2rem;
+}
+
+footer li {
+    display: inline-flex;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    display: inline-flex;
+}
+
+ th, td {
+    border-bottom: solid 1px #000;
+}
+
+th, td {
+    padding: 5px;
+}
+
+#Impressum {
+    background-color: #000;
+    margin-top: 2%;
+    position: relative;
+    font-size: 1rem;
+    padding: 2% 10%;
+} 
+
+#Impressum .col-6 {
+    font-size: 0.9rem;
+}
+
+
+
+
+/* Scroll back to top button ********************************************************************/
+
+ .back-to-top {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    background-color: #D0AE67;
+    color: #fff;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+  }
+  
+  .back-to-top.show {
+    display: block; 
+  } 
+
+  #row-fixed{
+    visibility: hidden;
+    background-color: #D0AE67;
+    margin: 0;
+    text-align: center;
+    padding: 32px 0px;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    margin-top: auto;
+    margin-bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+  }
+
+
+
+/* Medai Query  ******************************************************************************************/
+
+@media (max-width: 990px) and (min-width : 0) {
+    
+    .background{
+        visibility: hidden;
+    }
+
+    #background-sm{
+        visibility: visible;
+    }
+
+    #navbar-mobile{
+        visibility: visible;
+        font-size: 1.5rem;
+    }
+
+    #navbar{
+        visibility: hidden;
+    }
+
+    button {
+        font-size: 1.3rem;
+    }
+    /* first section  */
+
+    #h1-bold{
+        font-size: 5rem;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    #first-sec button{
+        font-size: 1.1rem;
+        width: 120px;
+        height: 70px;
+    }
+
+    #heading-artemis{
+        margin-top: 30%;
+    }
+
+    #background_1sec_lg {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    #background_1sec_sm{
+        visibility: visible;
+        position: static;
+     }
+
+    /* Über uns  */
+
+    #Über-uns .col-lg-5{
+        border-bottom: transparent;
+    }
+
+    /* Restaurant */
+
+
+    .visible_cont_lg{
+        visibility: hidden;
+        position: absolute;
+    }
+    
+    
+    .hidden_cont_sm{
+        visibility: visible;
+        position: static;
+    }
+    /* Eiscafé */
+    
+    /* Buttons that are fixed */
+
+    #row-fixed{
+        visibility: visible;
+    }
+
+    .back-to-top{
+        bottom: 100px;
+    }
+}
+
+
+/* Media query for small devices */
+
+@media (max-width: 500px) and (min-width : 0){
+
+    /* first section  */
+
+    #h1-bold{
+        font-size: 4rem;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    #heading-artemis{
+        margin-top: 40%;
+    }
+
+    /* fixed buttons */
+
+}
