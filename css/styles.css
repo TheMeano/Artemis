@@ -2,7 +2,7 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     z-index: -2;
-    overflow-x: hidden; 
+    overflow-x: visible;
     color: #ffffff;
 }
 
@@ -113,6 +113,7 @@ hr{
 
 p{
     font-size: 1.3rem;
+    display: inline;
 }
 
 a {
@@ -341,9 +342,6 @@ th, td {
 
 @media (max-width: 990px) and (min-width : 0) {
     
-    body{
-        overflow-x: hidden;
-    }
     .background{
         visibility: hidden;
     }
@@ -352,13 +350,10 @@ th, td {
         visibility: visible;
     }
 
-    #navbar-mobile{
-        visibility: visible;
-        font-size: 1.5rem;
-    }
-
-    #navbar{
-        visibility: hidden;
+    .navbar-collapse{
+        background-color: #000;
+        font-size: 1.3rem;
+        padding-bottom: 5%;
     }
 
     button {
@@ -437,9 +432,7 @@ th, td {
 
 @media (max-width: 500px) and (min-width : 0){
 
-    body{
-        overflow-x: hidden;
-    }
+    
     /* first section  */
 
     #h1-bold{
