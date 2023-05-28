@@ -28,3 +28,17 @@ window.addEventListener('scroll', function() {
     backToTopBtn.classList.remove('show');
   }
 });
+
+
+var navbarLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+navbarLinks.forEach(function(link) {
+  link.addEventListener('click', function() {
+    var navbarToggler = document.querySelector('.navbar-toggler');
+    if (window.getComputedStyle(navbarToggler).display !== 'none') {
+      setTimeout(function() {
+        navbarToggler.click();
+      }, 500); // Adjust the delay time (in milliseconds) as needed
+    }
+  });
+});
