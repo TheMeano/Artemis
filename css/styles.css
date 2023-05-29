@@ -1,13 +1,12 @@
 /* GENERAL CLASSES AND TAG SELECTOR *****************************/
-html, body {
-	position:relative;
-	overflow-x:hidden;
+html, body{
+    overflow-x: hidden;
+    position: relative;
 }
 
 body{
     font-family: 'Josefin Sans', sans-serif;
     z-index: -2;
-    overflow-x: visible;
     color: #ffffff;
 }
 
