@@ -36,7 +36,17 @@ body{
     visibility: hidden;
 }
 
-
+.carousel-fade .carousel-item {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 0;
+  }
+  
+  .carousel-fade .carousel-item.active {
+    opacity: 1;
+    z-index: 0;
+  }
+  
 
 .navbar-brand{
     transition: height 0.5s ease;   
@@ -141,6 +151,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    z-index: 2; 
  }
 
  #background_1sec_sm{
@@ -154,6 +165,7 @@ a {
     font-weight: 600;
     color: #ffffff;
     font-family: "Lora", sans-serif;
+    z-index: 2;
  }
 
  #first-sec button{
