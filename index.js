@@ -11,11 +11,11 @@ window.addEventListener('scroll', function() {
     // If scrolled, make the navbar smaller by reducing its height
     navbar.style.height = '100px';
     
-    navBrand.style.height = '100px';// Adjust the height to your desired value
+    // navBrand.style.width = '100px';
   } else {
     // If not scrolled, revert the navbar to its initial height
     navbar.style.height = initialHeight + 'px';
-    navBrand.style.height = initialHeight + 'px';
+    // navBrand.style.width = initialHeight + 'px';
   }
 });
 
@@ -38,7 +38,7 @@ navbarLinks.forEach(function(link) {
     if (window.getComputedStyle(navbarToggler).display !== 'none') {
       setTimeout(function() {
         navbarToggler.click();
-      }, 500); // Adjust the delay time (in milliseconds) as needed
+      }, 800); // Adjust the delay time (in milliseconds) as needed
     }
   });
 });
@@ -50,7 +50,7 @@ carousel.addEventListener('slide.bs.carousel', function () {
   
   setTimeout(function() {
     activeItem.classList.remove('active');
-  }, 600); // Adjust the delay time (in milliseconds) to match the transition duration
+  }, 400); // Adjust the delay time (in milliseconds) to match the transition duration
 });
 
 carousel.addEventListener('slid.bs.carousel', function () {
