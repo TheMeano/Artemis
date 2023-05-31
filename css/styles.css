@@ -13,6 +13,7 @@ body{
 .background{
     position: fixed;
     width: 100%;
+    height: auto;
 }
 
 #background-sm{
@@ -362,7 +363,7 @@ th, td {
 
 
 
-/* Medai Query  ******************************************************************************************/
+/* Media Query  ******************************************************************************************/
 
 @media (max-width: 990px) and (min-width : 0) {
     
@@ -485,4 +486,34 @@ th, td {
 
     /* fixed buttons */
 
+}
+
+@media (max-width: 1000px) and (min-width : 750px) {
+    
+    /* first section  */
+    .carousel_sm{
+        visibility: hidden;
+        position: absolute;
+      }
+
+    .carousel_lg {
+        visibility: visible;
+        position: static;
+    }
+
+    #h1-bold{
+        font-size: 5rem;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    #heading-artemis{
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 1320px) and (min-width : 991px) {
+    .background{
+        height: 100%;
+    }
 }
