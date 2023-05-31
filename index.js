@@ -50,13 +50,13 @@ carousel.addEventListener('slide.bs.carousel', function () {
   
   setTimeout(function() {
     activeItem.classList.remove('active');
-  }, 400); // Adjust the delay time (in milliseconds) to match the transition duration
+  }, 500); // Adjust the delay time (in milliseconds) to match the transition duration
 });
 
-carousel.addEventListener('slid.bs.carousel', function () {
-  var nextItem = this.querySelector('.carousel-item-next');
+// carousel.addEventListener('slid.bs.carousel', function () {
+//   var nextItem = this.querySelector('.carousel-item-next');
   
-  setTimeout(function() {
-    nextItem.classList.add('active');
-  }, 0);
-});
+//   setTimeout(function() {
+//     nextItem.classList.add('active');
+//   }, 500);
+// });

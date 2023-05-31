@@ -166,6 +166,11 @@ a {
     position: absolute;
   }
 
+  .carousel_md{
+    visibility: hidden;
+    position: absolute;
+  }
+
  #h1-bold{
     font-size: 8rem;
     font-weight: 600;
@@ -492,14 +497,19 @@ th, td {
     
     /* first section  */
     .carousel_sm{
-        visibility: hidden;
-        position: absolute;
+        visibility: visible;
+        position: static;
       }
 
     .carousel_lg {
-        visibility: visible;
-        position: static;
+        visibility: hidden;
+        position: absolute;
     }
+    .carousel_md{
+        visibility: hidden;
+        position: absolute;
+    }
+    
 
     #h1-bold{
         font-size: 5rem;
@@ -510,10 +520,48 @@ th, td {
     #heading-artemis{
         margin-top: 15%;
     }
+
+    @media (max-width: 999px) and (min-width : 650px) {
+        .carousel_sm{
+            visibility: hidden;
+            position: absolute;
+          }
+    
+        .carousel_lg {
+            visibility: visible;
+            position: static;
+        }
+
+        .background{
+            height: 100%;
+        }
+
+        #first-sec{
+            margin-top: 10%;
+        }
+    }
 }
 
 @media (max-width: 1320px) and (min-width : 991px) {
     .background{
         height: 100%;
     }
+
+    .nav-link{
+        font-size: 1.05rem;
+    }
+    /* first section  *********************************************/
+
+
+    #h1-bold{
+        font-size: 5rem;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    #heading-artemis{
+        margin-top: 20%;
+    }    
+
+    
 }
