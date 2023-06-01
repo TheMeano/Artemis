@@ -480,7 +480,7 @@ th, td {
     /* first section  */
 
     #h1-bold{
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-weight: 600;
         color: #ffffff;
     }
@@ -490,7 +490,12 @@ th, td {
     }
 
     /* fixed buttons */
-
+    .navbar-toggler{
+        width: 120px;
+    }
+    #row-fixed a{
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 1000px) and (min-width : 750px) {
@@ -518,7 +523,7 @@ th, td {
     }
 
     #heading-artemis{
-        margin-top: 15%;
+        margin-top: 12%;
     }
 
     @media (max-width: 999px) and (min-width : 650px) {
