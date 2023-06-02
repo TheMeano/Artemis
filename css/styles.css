@@ -555,6 +555,14 @@ th, td {
     .nav-link{
         font-size: 1.05rem;
     }
+
+    p {
+        font-size: 1rem;
+    }
+
+    li {
+        font-size: 0.8rem;
+    }
     /* first section  *********************************************/
 
 
