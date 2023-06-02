@@ -1,0 +1,13 @@
+/* Impressum */
+#first-sec{
+    text-align: center;
+    padding:  10%;
+}
+
+.card{
+    margin-top: 5%;
+    background-color: #000000;
+    color: #ffffff;
+    border: solid 3px #D0AE67;
+    border-radius: 30px;
+}
