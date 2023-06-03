@@ -119,6 +119,7 @@ hr{
 p{
     font-size: 1.3rem;
     display: inline;
+    color: #ffffff;
 }
 
 a {
@@ -476,6 +477,9 @@ th, td {
 
 @media (max-width: 500px) and (min-width : 0){
 
+    p{
+        font-size: 0.999rem;
+    }
     
     /* first section  */
 
