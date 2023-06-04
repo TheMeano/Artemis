@@ -117,8 +117,9 @@ hr{
 }
 
 p{
-    font-size: 1.3rem;
-    display: inline;
+    font-size: 1.15rem;
+    text-align: center;
+    display: inline-block;
     color: #ffffff;
 }
 
@@ -448,6 +449,15 @@ th, td {
 
     /* Restaurant */
 
+    /* Restaurant und Eiscafé  */
+
+    #Restaurant .row {
+        margin-top: 30%;
+    }
+
+    #Eiscafé .row {
+        margin-top: 30%;
+    }
 
     .visible_cont_lg{
         visibility: hidden;
@@ -493,6 +503,8 @@ th, td {
         margin-top: 40%;
     }
 
+    Restaurant und Eiscafé
+
     /* fixed buttons */
     .navbar-toggler{
         width: 120px;
@@ -529,6 +541,8 @@ th, td {
     #heading-artemis{
         margin-top: 12%;
     }
+
+    
 
     @media (max-width: 999px) and (min-width : 650px) {
         .carousel_sm{
