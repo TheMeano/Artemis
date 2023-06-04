@@ -193,13 +193,13 @@
           
           <div class="row visible_cont_lg" style="margin-top: 5%;">
             <div class="col-lg-12" style="text-align: center;">
-              <a href="#Restaurant"><button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Pizzen</button></a>
+              <a href="#Restaurant"><button type="button" data-bs-toggle="modal" data-bs-target="#ModalPizza">Pizzen <i class="fa-sharp fa-solid fa-pizza-slice"></i></button></a>
             </div>
           </div>
 
 
-<!-- Modal -->
-<div class="modal fade" style="padding: 0 10%;"  id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- Modal Pizza -->
+<div class="modal fade" style="padding: 0 10%;"  id="ModalPizza" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content" style="background-color: #000;">
       <div class="modal-header">
@@ -238,7 +238,7 @@
 
         <div class="row hidden_cont_sm" style="margin-top: 5%;">
           <div class="col-lg-12" style="text-align: center;">
-            <a href="#Restaurant"><button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Pizzen</button></a>
+           <button type="button" data-bs-toggle="modal" data-bs-target="#ModalPizza">Pizzen <i class="fa-sharp fa-solid fa-pizza-slice"></i></button>
           </div>
         </div>
       </div>
@@ -265,12 +265,44 @@
 
           <div class="row" style="margin-top: 5%;">
             <div class="col-lg-12" style="text-align: center;">
-              <a href="#Restaurant"><button class="Button-dark">Steaks</button></a>
+              <button class="Button-dark" button type="button" data-bs-toggle="modal" data-bs-target="#ModalRestaurant">Steaks </button>
             </div>
           </div>
         </div>
 
-        
+      </div>
+
+      <!-- Modal Steak  -->
+      <div class="modal fade" style="padding: 0 10%;"  id="ModalRestaurant" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content" style="background-color: #000;">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Steak vom Grill</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <ul>
+              <li style="color: #D0AE67;"><p>Rumpsteak	Champignon	(250g) </p> (Tomatensauce, Hackfleisch, Paprika, Tunfisch, Zwiebeln, Käse) </li>
+              <li style="color: #D0AE67;"><p>Rib-Eye-Steak	(230g) </p> (Tomatensauce, Schinken, Feta, Peperoni, Käse)</li>
+              <li style="color: #D0AE67;"><p>Grillteller	(300 g)</p> (Tomatensauce, Spinat, Zwieben, Feta, Käse)</li>
+              <li style="color: #D0AE67;"><p>Putensteak	(200g) </p> (Tomatensauce, Frische Tomaten, Mozzarella, Käse)</li> 
+              <br>
+              <br>
+              <p>Zu jedem Steak gibt es einen Salat und ein Steakbrot. Bei der
+                Beilage können Sie zwischen Baked Potatoe, Kroketten,
+                Country Potatoes, Pommes oder Brat- kartoffeln wählen.
+                Gegen einen Aufpreis von 2.50 € gibt es eine Rahm- oder
+                Jägersauce dazu.Für 2.00 € Autochlag gibt es eine
+                Steaksauce zum Dippen oder einen anderen Dip nach Wahl.
+                wählen Sie zwischen BBQ-, American-, Knobi, Chili-Dip oder
+                Sourcream. </p>
+            </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" style="margin: 0 auto;" data-bs-dismiss="modal">Schließen</button>
+            </div>
+          </div>
+        </div>
       </div>
 
      
@@ -279,11 +311,11 @@
       <div class="row">
 
         <div class="col-lg-6">
-          <h1 class="heading-cursive">Empfehlungen</h1>
+          <h1 class="heading-cursive">Cocktails</h1>
           <p>Wir bieten eine vielfältige Auswahl an hausgemachten Pastagerichten, die mit frischen Zutaten und raffinierten Saucen zubereitet werden. Lassen Sie sich von den al dente gekochten Nudeln und den harmonisch abgestimmten Aromen verführen. Ob Sie eine klassische Carbonara, eine aromatische Pesto oder eine kreative Kombination bevorzugen - unsere Pasta ist ein Gaumenschmaus, den Sie nicht verpassen sollten.</p>
           <div class="row visible_cont_lg" style="margin-top: 5%;">
             <div class="col-lg-12" style="text-align: center;">
-              <a href="#Restaurant"><button>Pasta</button></a>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#ModalCocktails">Cocktails</button>
             </div>
           </div>
         </div>
@@ -294,15 +326,46 @@
 
         <div class="row hidden_cont_sm" style="margin-top: 5%;">
           <div class="col-lg-12" style="text-align: center;">
-            <a href="#Restaurant"><button>Pasta</button></a>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#ModalCocktails">Cocktails</button>
           </div>
         </div>
         
       </div>
+</div>
 
-      
+<!-- Modal Cocktails  -->
 
+<div class="modal fade" style="padding: 0 10%;"  id="ModalCocktails" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="background-color: #000;">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Cocktail Auswahl</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ul>
+        <li style="color: #D0AE67;"><p>Rumpsteak	Champignon	(250g) </p> (Tomatensauce, Hackfleisch, Paprika, Tunfisch, Zwiebeln, Käse) </li>
+        <li style="color: #D0AE67;"><p>Rib-Eye-Steak	(230g) </p> (Tomatensauce, Schinken, Feta, Peperoni, Käse)</li>
+        <li style="color: #D0AE67;"><p>Grillteller	(300 g)</p> (Tomatensauce, Spinat, Zwieben, Feta, Käse)</li>
+        <li style="color: #D0AE67;"><p>Putensteak	(200g) </p> (Tomatensauce, Frische Tomaten, Mozzarella, Käse)</li> 
+        <br>
+        <br>
+        <p>Zu jedem Steak gibt es einen Salat und ein Steakbrot. Bei der
+          Beilage können Sie zwischen Baked Potatoe, Kroketten,
+          Country Potatoes, Pommes oder Brat- kartoffeln wählen.
+          Gegen einen Aufpreis von 2.50 € gibt es eine Rahm- oder
+          Jägersauce dazu.Für 2.00 € Autochlag gibt es eine
+          Steaksauce zum Dippen oder einen anderen Dip nach Wahl.
+          wählen Sie zwischen BBQ-, American-, Knobi, Chili-Dip oder
+          Sourcream. </p>
+      </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" style="margin: 0 auto;" data-bs-dismiss="modal">Schließen</button>
+      </div>
     </div>
+  </div>
+</div>
     
       
     </section>
