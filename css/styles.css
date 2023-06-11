@@ -288,6 +288,9 @@ a {
 
 #Galerie img{
     cursor: pointer;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    border-radius: 20px;
 }
 
 
