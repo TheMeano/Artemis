@@ -280,6 +280,16 @@ a {
     margin-top: 5%;
 }
 
+.modal-footer button{
+    margin: auto;
+    width: fit-content;
+    padding: 3.5% 15% 10%;
+}
+
+#Galerie img{
+    cursor: pointer;
+}
+
 
 /* footer  **************************************************/
 
