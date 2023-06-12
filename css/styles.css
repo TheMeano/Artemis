@@ -342,6 +342,7 @@ th, td {
 
 #Impressum .col-6 {
     font-size: 0.9rem;
+    z-index: 5;
 }
 
 
