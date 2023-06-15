@@ -11,3 +11,11 @@
     border: solid 3px #D0AE67;
     border-radius: 30px;
 }
+a {
+    text-decoration: underline;
+}
+
+ul{
+    text-align: center; 
+    list-style-position: inside;
+}
