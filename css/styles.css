@@ -128,6 +128,19 @@ a {
     text-decoration: none;
 }
 
+ cookie-banner{
+    background-color: #ffffff;
+    width: max-content;
+    position: absolute;
+    top: 20%;
+    padding: 3%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 3;
+    border-radius: 30px;
+ }
+
 /* first section ***********************************************************/
  #first-sec{
     position: relative;
