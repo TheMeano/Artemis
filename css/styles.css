@@ -537,6 +537,9 @@ th, td {
     #row-fixed a{
         font-size: 0.9rem;
     }
+    .back-to-top {
+        margin-bottom: 40px;
+      }
 }
 
 @media (max-width: 1000px) and (min-width : 750px) {
